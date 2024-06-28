@@ -1,0 +1,13 @@
+.custom_slider img{
+    height: 300px;
+    max-width: 100%;
+}
+
+.custom_slider .carousel-control-next,
+.custom_slider .carousel-control-prev{
+    color: red;
+}
+
+.custom_slider .carousel-indicators [data-bs-target]{
+    background-color: var(--primary-color);
+}

@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
+           /* General CSS */
+           @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab&display=swap');
+           @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+           @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+           *,
+           *::before,
+           *::after {
+             -webkit-box-sizing: border-box;
+             -moz-box-sizing: border-box;
+             box-sizing: border-box;
+             margin: 0;
+             padding: 0;
+           }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+           :active,
+           :hover,
+           :focus {
+             outline: 0 !important;
+             outline-offset: 0;
+           }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+           a:hover {
+             color: var(--third-color) !important;
+           }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+           :root {
+
+             --primary-color: #A82C48;
+             --secondary-color: #43121d;
+             --third-color: #f98169;
+             /* Background Color */
+             --bg-white: #fff;
+
+             /* Text Colors */
+             --white-color: #fff;
+             --text-color: #555;
+             --text-gray: #999;
+             --black-color: #000;
+             --dark-color: #03262c;
+
+             /* Font Family */
+             --primary-font: 'Roboto', sans-serif;
+             --secondary-font: 'Quicksand', sans-serif;
+             --ternary-font: 'Poppins';
+
+           }
+
+           ul,
+           ol {
+             margin: 0;
+             padding: 0;
+           }
+
+           html {
+             scroll-behavior: smooth;
+           }
+
+           body {
+             font-size: 100%;
+             font-weight: 400;
+             font-family: var(--primary-font);
+           }
+
+           /*
+           ========================
+           custom scrollbar
+           ========================
+           */
+           ::-webkit-scrollbar {
+             width: 0.625rem;
+           }
+
+           ::-webkit-scrollbar-track {
+             background: var(--white-color);
+           }
+
+           ::-webkit-scrollbar-thumb {
+             background: var(--primary-color);
+           }
+
+
+
+
+           @media (max-width : 1240px) {}
+
+           @media (max-width : 991px) {
+
+           
+           }
+
+
+           @media (max-width : 767px) {
+
+          
+           }
+
+
+           @media (max-width : 340px) {}

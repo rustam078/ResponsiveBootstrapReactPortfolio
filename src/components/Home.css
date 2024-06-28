@@ -1,0 +1,217 @@
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  color: var(--secondary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+h3 {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+h4 {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--text-color);
+  font-family: var(--ternary-font);
+}
+
+
+span{
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--text-color);
+  font-family: var(--ternary-font);
+}
+
+.white-btn {
+  padding: 0.625rem 1.875rem;
+  line-height: 25px;
+  background-color: var(--white-color);
+  border: 0.1875rem solid var(--white-color);
+  color: var(--text-color);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 /19%);
+  -webkit-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s;
+
+}
+
+
+
+.white-btn:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.wrapper {
+  padding-top: 8.25rem;
+  padding-bottom: 8.25rem;
+}
+
+.text-content {
+  width: 70%;
+  margin: auto;
+
+}
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2 {
+  color: var(--white-color);
+}
+
+
+/*
+  ==========================
+  Header design
+  ==============
+  */
+
+
+
+
+
+
+
+
+
+
+
+.top-banner {
+  width: 100%;
+  background: url('../assests/images/bg/mypic.png') no-repeat center;
+  background-size: 567px;
+  padding: 8.875rem 0 3.325rem;
+  background-position-y: -10px;
+  background-position-x: -10px;
+}
+.top-banner1 {
+  width: 100%;
+  background: url('../assests/images/bg/vtech.jpg') no-repeat center;
+  background-size: 750px;
+  padding: 1.875rem 0 9.375rem;
+  background-position-y: -10px;
+  background-position-x: 600px;
+}
+
+
+.counter-section {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+
+.counter-section p {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.section-subtitle {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
+  max-width: 40%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.mobileview{
+  display: none;
+}
+
+@media (max-width : 1240px) {}
+
+@media (max-width : 991px) {
+  .top-banner{
+    background-position-y: -14px;
+    background-position-x: 467px;
+  }
+}
+
+
+@media (max-width : 767px) {
+
+
+  .top-banner {
+    background-size: 612px;
+    padding: 1.875rem 0 0.375rem;
+    /* background-position-y: 0px; */
+    background-position-x: 222px;
+  }
+}
+
+
+@media (max-width : 440px) {
+  .top-banner1 {
+    padding: 1.875rem 0 3.375rem;
+
+  }
+  .top-banner {
+     width: 100%;
+     background-size: 696px;
+     padding: 1.875rem 0 1.375rem;
+     background-position-y: 102px;
+     background-position-x: -34px;
+  }
+
+  .top-banner .carousel{
+    width: 145px;
+  }
+
+  .laptopview{
+    display: none;
+  }
+
+  .mobileview{
+    display: contents;
+  }
+}

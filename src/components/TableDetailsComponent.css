@@ -1,0 +1,51 @@
+.transparent-table {
+  background-color: transparent !important;
+}
+
+.transparent-table th,
+.transparent-table td {
+  background-color: transparent !important;
+  padding: 0.2rem 0.2rem !important;
+}
+
+.bgcolorbrown{
+  background-color: #FDB82B;
+  color: rgb(75, 59, 59);
+}
+
+  .cofee-banner {
+    width: 100%;
+    background: url('../assests/images/bg/cofee.png') no-repeat center;
+    background-size: 800px;
+    padding: 3.875rem 0 9.375rem;
+    background-position-y: -10px;
+    background-position-x: 600px;
+  }
+
+
+  
+@media (max-width : 1000px) {
+  .cofee-banner {
+    background-size: 923px;
+    background-position-x: 346px;
+  }
+}
+@media (max-width : 767px) {
+  .cofee-banner {
+    background-size: 612px;
+    padding: 1.875rem 0 0.375rem;
+    /* background-position-y: 0px; */
+    background-position-x: 222px;
+  }
+}
+
+
+@media (max-width : 440px) {
+  .cofee-banner {
+    padding: 1.875rem 0 3.375rem;
+
+  }
+
+
+ 
+}

@@ -1,0 +1,11 @@
+.cardstyle img{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.slick-prev,
+.slick-next {
+    color: var(--primary-color); /* Change the color to white */
+}
